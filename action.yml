@@ -11,3 +11,5 @@ runs:
   image: 'docker.pkg.github.com/rizwan-kh/resume/resume-builder:latest'
   args:
     - ${{ inputs.theme-package-url }}
+  env:
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
