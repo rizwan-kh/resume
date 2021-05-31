@@ -19,13 +19,13 @@
       },
       {
         "network": "Github",
-        "username": "@trucngn",
-        "url": "https://github.com/trucngn"
+        "username": "@rizwan-kh",
+        "url": "https://github.com/rizwan-kh"
       },
       {
         "network": "Twitter",
-        "username": "trucngn",
-        "url": "https://twitter.com/trucngn/"
+        "username": "rebelution_",
+        "url": "https://twitter.com/rebelution_/"
       }
     ]
   },
@@ -34,7 +34,7 @@
       "company": "Accenture Middle East BV",
       "location": "Dubai",
       "position": "Technology Consultant",
-      "website": "https://bonitasoft.com/",
+      "website": "https://www.accenture.com/ae-en",
       "startDate": "2019-02-17",
       "summary": "Bonitasoft is a leading open source provider of Business Process Management and low-code digital transformation software.",
       "highlights": [
@@ -51,7 +51,7 @@
       "company": "Accenture India Private Limited",
       "location": "India",
       "position": "Senior Software Analyst",
-      "website": "https://bonitasoft.com/",
+      "website": "https://www.accenture.com/in-en",
       "startDate": "2015-07-29",
       "endDate": "2019-02-15",
       "summary": "Automated testing of a Business Process Management platform.",
@@ -69,7 +69,7 @@
       "website": "https://www.cmcltd.com/",
       "startDate": "2010-05-01",
       "endDate": "2012-08-01",
-      "summary": "Moody's Analytics is an award-winning provider of risk and performance management software for financial institutions.",
+      "summary": "CMC Limited is an award-winning provider of risk and performance management software for financial institutions.",
       "highlights": [
         "Built a test framework for automated GUI tests of Adobe Flex applications",
         "**Automated deployment** tests against J2EE application servers",
