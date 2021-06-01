@@ -1,13 +1,12 @@
-{ 
-  "meta": {
-    "theme": "elegant"
-  },
+{ "meta": {
+		"theme": "elegant"
+	},
   "basics": {
     "name": "Rizwan Khan",
     "label": "DevOps Consultant",
     "email": "khan.rizwan1@outlook.com",
     "website": "https://rizwan-kh.github.io/resume",
-    "summary": "I am a DevOps Engineer with an eye for automation since day one. Versatile team player with a deep commitment to a reliable and successful business, I am eager to learn every day at a high pace.\n\nBased in Dubai Emirates in the UAE, I am keen on working remotely too.\n\n_This resume is built and deployed with a GitHub Actions CI/CD workflow._",
+    "summary": "I am a DevOps Consultant with an eye for automation since day one. Versatile team player with a deep commitment to a reliable and successful business, I am eager to learn every day at a high pace.\n\nBased in Dubai Emirates in the United Arab Emirates, I am keen on working remotely too.\n\n_This resume is built and deployed with a GitHub Actions CI/CD workflow._",
     "location": {
       "city": "Dubai",
       "countryCode": "United Arab Emirates"
@@ -22,11 +21,6 @@
         "network": "Github",
         "username": "@rizwan-kh",
         "url": "https://github.com/rizwan-kh"
-      },
-      {
-        "network": "Twitter",
-        "username": "rebelution_",
-        "url": "https://twitter.com/rebelution_/"
       }
     ]
   },
@@ -37,7 +31,7 @@
       "position": "Technology Consultant",
       "website": "https://www.accenture.com/ae-en",
       "startDate": "2019-02-17",
-      "summary": "Bonitasoft is a leading open source provider of Business Process Management and low-code digital transformation software.",
+      "summary": "Accenture ME is a leading Management consulting and digital transformation company.",
       "highlights": [
         "Built from scratch a **cloud native** PaaS to run process-based applications on a fully managed and cost-optimized infrastructure",
         "Set up **observability** and operate a Kubernetes **multi-cluster** and **multi-tenant** infrastructure with industry standard uptime SLA",
@@ -45,7 +39,7 @@
         "Set up **CI/CD as code** for development teams, making release pipelines faster and more sustainable",
         "Managed IT **infrastructure as code** to ensure reliability of corporate-wise services, both on-premises and on cloud IaaS",
         "Developed a command-line toolkit to manage Salesforce Metadata in sandbox and production environments through Git",
-        "*AWS, Docker, Kubernetes, Helm, Mozilla SOPS, Datadog, Prometheus, Python, Ansible, Terraform, Jenkins, Artifactory, Nexus, Shell, Git, Agile*"
+        "*AWS, Docker, Kubernetes, Helm, Nagios, Prometheus, Python, Ansible, Terraform, Jenkins, Nexus, Shell, Git, Agile*"
       ]
     },
     {
@@ -55,12 +49,15 @@
       "website": "https://www.accenture.com/in-en",
       "startDate": "2015-07-29",
       "endDate": "2019-02-15",
-      "summary": "Automated testing of a Business Process Management platform.",
+      "summary": "Automation and building Tools.",
       "highlights": [
-        "Built a frontend **automated test framework** for multi-browser end-to-end testing",
-        "Wrote deployment tests against various database vendors and J2EE application servers to cover compatibility testing",
-        "Integrated automated tests to a Jenkins CI environment",
-        "*Java, Maven, Selenium, TestNG, Jenkins, JIRA, Git, Agile*"
+        "Automated deployment and installation of packages via Chef",
+        "Automated report generation for AWS, Microsoft Azure",
+        "Generic CI CD template for Python, Java, Node package build and deployment for GitLab and Azure DevOps",
+        "Developed numerous Dockerfile for applications",
+        "Managed a team of 6 for Docker apps creation",
+        "Create a tool to convert Mainframe COBOL code to Gnu COBOL using extensive use of RegEx",
+        "*Docker, Python, Make, Jira, Confluence, GitLab, Jenkins, Chef, Agile, Shell*"
       ]
     },
     {
@@ -68,8 +65,8 @@
       "location": "Mumbai, India",
       "position": "Software Engineer",
       "website": "https://www.cmcltd.com/",
-      "startDate": "2010-05-01",
-      "endDate": "2012-08-01",
+      "startDate": "2012-08-16",
+      "endDate": "2015-07-15",
       "summary": "CMC Limited is an award-winning provider of risk and performance management software for financial institutions.",
       "highlights": [
         "Built a test framework for automated GUI tests of Adobe Flex applications",
@@ -82,11 +79,11 @@
   ],
   "publications": [
     {
-      "name": "Developers: work like a champion today",
-      "publisher": "Dev.To",
+      "name": "DevOps Life & Notes",
+      "publisher": "GitHub Pages",
       "releaseDate": "2019-05-31",
-      "website": "https://bonitasoft.medium.com/developers-work-like-a-champion-today-6279b3ed509d",
-      "summary": "How can we apply a champion’s mentality and work ethic to our day to day job?"
+      "website": "https://rizwan-kh.github.io",
+      "summary": "I've many under my dratfs folder, remember to publish them all"
     }
   ],
   "education": [
@@ -169,6 +166,26 @@
         "Vim",
         "Sublime Text"
       ]
+    }
+  ],
+ "awards": [
+    {
+      "title": "Inventor Award Program FY19",
+      "awarder": "Accenture",
+      "date": "2019-12-01",
+      "summary": "Each year, Accenture celebrates unique ideas and an innovation mindset through the Inventor Award Program, which recognizes and rewards employees who file patent applications or have been granted patents in the previous fiscal year."
+    },
+    {
+      "title": "Accenture Celebrates Excellence(ACE) - FY19 Q4",
+      "awarder": "Accenture",
+      "date": "2019-08-01",
+      "summary": "Awarded the Client and Customer Award in the individual category for outstanding contribution to client's business outcomes.\n\nThe ACE awards program is the formal entity Rewards and Recognition program intended to recognize individuals and teams for demonstrating behavior that contributes to the success of the organization. It celebrates the true spirit of our colleagues who have performed ‘Greater Than’ and applauds people who have consistently delivered results that exceed expectations, individually and as teams."
+    },
+    {
+      "title": "Accenture Celebrates Excellence(ACE) - FY18 Q3",
+      "awarder": "Accenture",
+      "date": "2018-04-01",
+      "summary": "Awarded the Future Ready Skills Award in the individual category for consistently applying IT skills in client projects and positioning Accenture for future growth.\n\nThe ACE awards program is the formal entity Rewards and Recognition program intended to recognize individuals and teams for demonstrating behavior that contributes to the success of the organization. It celebrates the true spirit of our colleagues who have performed ‘Greater Than’ and applauds people who have consistently delivered results that exceed expectations, individually and as teams."
     }
   ],
   "languages": [
