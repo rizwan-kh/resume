@@ -4,7 +4,7 @@
     "label": "DevOps Consultant",
     "email": "khan.rizwan1@outlook.com",
     "website": "https://rizwan-kh.github.io/",
-    "summary": "I am a DevOps Consultant with an eye for automation since day one. Versatile team player with a deep commitment to a reliable and successful business, I am eager to learn every day at a high pace.\n\nBased in Dubai Emirates in the United Arab Emirates, I am keen on working remotely too.\n\n_This resume is built and deployed with a GitHub Actions CI/CD workflow._",
+    "summary": "I am a DevOps Consultant with an eye for automation since day one. Versatile team player with a deep commitment to a reliable and successful business, I am eager to learn every day at a high pace.\n\nBased in Dubai Emirates in the United Arab Emirates, I am keen on working remotely too.\n\n_This resume is built and deployed with a [GitHub Actions CI/CD workflow](https://github.com/rizwan-kh/resume)._",
     "location": {
       "city": "Dubai",
       "countryCode": "United Arab Emirates"
