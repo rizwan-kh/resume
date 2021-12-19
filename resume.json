@@ -26,7 +26,7 @@
     {
       "company": "Accenture Middle East BV",
       "location": "Dubai",
-      "position": "Technology Consultant",
+      "position": "Senior Technology Consultant",
       "website": "https://www.accenture.com/ae-en",
       "startDate": "2019-02-17",
       "summary": "Accenture ME is a leading Management consulting and digital transformation company.",
@@ -67,11 +67,10 @@
       "endDate": "2015-07-15",
       "summary": "CMC Limited is an award-winning provider of risk and performance management software for financial institutions.",
       "highlights": [
-        "Built a test framework for automated GUI tests of Adobe Flex applications",
-        "**Automated deployment** tests against J2EE application servers",
+        "Developed several low level module for a global trading engine using C++",
+        "Designed and authored several **Automated scripts** using Python for BOD/EOD activities",
         "Integrated automated tests to a Jenkins CI environment",
-        "Wrote automated tests for Oracle PL/SQL stored procedures",
-        "*Python, XML, RIATest, Ant, Jenkins, Robot Framework, SQL, PL/SQL, Perforce, Agile*"
+        "*C++, Python, XML, Jenkins, SQL, PL/SQL, Redmine, Agile, Linux, BASH*"
       ]
     }
   ],
@@ -143,7 +142,8 @@
         "GitHub",
         "Artifactory",
         "Nexus",
-        "Azure DevOps"
+        "Azure DevOps",
+        "GitLab"
       ]
     },
     {
