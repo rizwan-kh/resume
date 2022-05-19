@@ -6,8 +6,8 @@
     "website": "https://rizwan-kh.github.io/",
     "summary": "I am a DevOps Consultant with an eye for automation since day one. Versatile team player with a deep commitment to a reliable and successful business, I am eager to learn every day at a high pace.\n\nBased in Dubai Emirates in the United Arab Emirates, I am keen on working remotely too.\n\n_This resume is built and deployed with a [GitHub Actions CI/CD workflow](https://github.com/rizwan-kh/resume)._",
     "location": {
-      "city": "Dubai",
-      "countryCode": "United Arab Emirates"
+      "city": "Toronto",
+      "countryCode": "Canada"
     },
     "profiles": [
       {
@@ -24,11 +24,24 @@
   },
   "work": [
     {
+      "company": "Accenture Inc",
+      "location": "Toronto",
+      "position": "Associate Manager",
+      "website": "https://www.accenture.com/ca-en",
+      "startDate": "2022-05-05",
+      "summary": "Accenture Inc is a leading Management consulting and digital transformation company.",
+      "highlights": [
+        "Technical Solutions Architect",
+        "Designing and solutioning"
+      ]
+    },
+    {
       "company": "Accenture Middle East BV",
       "location": "Dubai",
       "position": "Senior Technology Consultant",
       "website": "https://www.accenture.com/ae-en",
       "startDate": "2019-02-17",
+      "endDate": "2022-05-04",
       "summary": "Accenture ME is a leading Management consulting and digital transformation company.",
       "highlights": [
         "Created Multiple Terraform based blueprint to deploy AI solutions on AWS, Azure and GCP via Azure DevOps pipeline",
