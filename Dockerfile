@@ -6,7 +6,6 @@ RUN apk add --no-cache --update wget unzip \
   && mkdir -p /open-sans \
   && unzip -d /open-sans /open-sans.zip
 
-
 FROM node:10-buster-slim
 
 ENV PUPPETEER_SKIP_DOWNLOAD "true"
