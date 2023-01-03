@@ -1,10 +1,10 @@
 { "google_analytics_id": "UA-198799391-1",
   "basics": {
     "name": "Rizwan Khan",
-    "label": "DevOps Consultant",
+    "label": "Senior DevOps Consultant",
     "email": "khan.rizwan1@outlook.com",
     "website": "https://rizwan-kh.github.io/",
-    "summary": "I am a DevOps Consultant with an eye for automation since day one. Versatile team player with a deep commitment to a reliable and successful business, I am eager to learn every day at a high pace.\n\nBased in Toronto, Canada.\n\n_This resume is built and deployed with a [GitHub Actions CI/CD workflow](https://github.com/rizwan-kh/resume)._",
+    "summary": "I am a Senior DevOps Consultant with an eye for automation since day one. Versatile team player with a deep commitment to a reliable and successful business, I am eager to learn every day at a high pace.\n\nBased in Toronto, Canada.\n\n_This resume is built and deployed with a [GitHub Actions CI/CD workflow](https://github.com/rizwan-kh/resume)._",
     "location": {
       "city": "Toronto",
       "countryCode": "Canada"
