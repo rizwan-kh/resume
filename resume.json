@@ -185,6 +185,26 @@
       ]
     }
   ],
+  "certificates": [
+    {
+      "name": "Microsoft Certified: Azure Solutions Architect Expert",
+      "date": "2022-03-30",
+      "issuer": "Microsoft",
+      "url": "https://www.credly.com/badges/2969564b-b06c-4f2b-b27d-4044c29ddef9/public_url"
+    },
+    {
+      "name": "Microsoft Certified: Azure Administrator Associate",
+      "date": "2021-07-02",
+      "issuer": "Microsoft",
+      "url": "https://www.credly.com/badges/696c02f0-af76-431b-84f5-01695d4d17b1/public_url"
+    },
+    {
+      "name": "Microsoft Certified: Azure Fundamentals",
+      "date": "2021-04-10",
+      "issuer": "Microsoft",
+      "url": "https://www.credly.com/badges/30f708b5-a85f-432f-b66e-29c4f204fe0c/public_url"
+    }
+  ],
  "awards": [
    {
       "title": "Tech Star FY21",
