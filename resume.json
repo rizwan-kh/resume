@@ -4,7 +4,7 @@
     "label": "Senior DevOps Consultant",
     "email": "khan.rizwan1@outlook.com",
     "website": "https://rizwan-kh.github.io/",
-    "summary": "I am a Senior DevOps Consultant with an eye for automation since day one. Versatile team player with a deep commitment to a reliable and successful business, I am eager to learn every day at a high pace.\n\nBased in Toronto, Canada.\n\n_This resume is built and deployed with a [GitHub Actions CI/CD workflow](https://github.com/rizwan-kh/resume)._",
+    "summary": "An experienced Senior DevOps Consultant, I have always been driven by automation and its potential for streamlining operations. With a strong focus on reliability and delivering successful outcomes, I bring a versatile skill set to any team. My commitment to staying updated and continuously learning in a fast-paced environment is a key aspect of my professional approach.\n\nBased in Toronto, Canada.\n\n_This resume is built and deployed with a [GitHub Actions CI/CD workflow](https://github.com/rizwan-kh/resume)._",
     "location": {
       "city": "Toronto",
       "countryCode": "Canada"
@@ -26,17 +26,19 @@
     {
       "company": "Accenture Inc",
       "location": "Toronto",
-      "position": "Associate Manager",
+      "position": "Tech Architecture Associate Manager",
       "website": "https://www.accenture.com/ca-en",
       "startDate": "2022-05-05",
       "summary": "Accenture Inc is a leading Management consulting and digital transformation company.",
       "highlights": [
-        "Headed a client project for transformation of applications to containers and deployment to Kubernetes consisting of multiple technology stack reducing infrastructure cost by 40% and increasing the uptime of the web application upto 99.3%",
-        "Responsible for managing 100+ Kubernetes clusters and their upgrades, lifecycle",
-        "Manage and over see the security of container images and Kubernetes clusters",
-        "Automation of daily tasks and documentation",
-        "Kubernetes SME",
-        "*AWS, Azure, Docker, Kubernetes, Helm, Nagios, Rancher, Prometheus, Grafana, Python, Terraform, Nexus, Shell, Git, Agile, GitLab, EKS, AKS, GKE*"
+        "Successfully led a client project involving the migration of applications to containers and their deployment on Kubernetes. This initiative encompassed diverse technology stacks, resulting in a remarkable 40% reduction in infrastructure costs and an impressive web application uptime of 99.3%",
+        "Demonstrated expertise in managing a vast portfolio of 200+ Kubernetes clusters, overseeing their upgrades and lifecycle management",
+        "Spearheaded the security management of container images and Kubernetes clusters, ensuring robust protection and adherence to best practices",
+        "Implemented automation for daily tasks and maintained comprehensive documentation, fostering efficient operations and knowledge sharing within the team",
+        "Designed and delivered CI/CD pipelines for multiple transformation projects, enabling seamless software delivery and continuous integration",
+        "Proficiently implemented DevOps CI/CD pipelines for MLOps on Azure (Azure Machine Learning and Azure Data Factory) and AWS (SageMaker), empowering efficient and streamlined machine learning operations",
+        "Recognized as a subject matter expert (SME) in Kubernetes, providing invaluable insights and guidance on best practices and optimal utilization of the platform",
+        "*AWS, Azure, Docker, Kubernetes, Helm, Nagios, Rancher, Prometheus, Grafana, Python, Terraform, Nexus, Shell, Git, Agile, GitLab, EKS, AKS, GKE, MLOps, ADF*"
       ]
     },
     {
@@ -48,12 +50,12 @@
       "endDate": "2022-05-04",
       "summary": "Accenture ME is a leading Management consulting and digital transformation company.",
       "highlights": [
-        "Created multiple Terraform based blueprint to deploy AI solutions on AWS, Azure and GCP via Azure DevOps pipeline reducing deployment time by 75%",
-        "Built from scratch a **cloud native** PaaS to run process-based applications on a fully managed and cost-optimized infrastructure",
-        "Set up **observability** and operate a Kubernetes **multi-cluster** and **multi-tenant** infrastructure with industry standard uptime SLA",
-        "Developed a **continuous delivery** solution for process-based application development and deployment",
-        "Set up **CI/CD** for development teams, making release pipelines faster by 50% and more reliable",
-        "Managed IT **infrastructure as code** to ensure reliability of corporate-wise services, both on-premises and on cloud IaaS",
+        "Employed Terraform-based blueprints to deploy AI solutions on AWS, Azure, and GCP via Azure DevOps pipelines, resulting in an impressive 75% reduction in deployment time",
+        "Developed a cutting-edge, cloud-native Platform as a Service (PaaS) from the ground up, offering a fully managed and cost-optimized infrastructure for running process-based applications",
+        "Established a highly robust and scalable Kubernetes multi-cluster and multi-tenant infrastructure, implementing comprehensive observability and adhering to industry-standard uptime Service Level Agreements (SLAs)",
+        "Created a continuous delivery solution tailored for process-based application development and deployment, enabling seamless and efficient release cycles",
+        "Streamlined development workflows by setting up efficient CI/CD processes for development teams, resulting in a 50% acceleration in release pipelines and enhanced reliability",
+        "Successfully managed IT infrastructure as code to ensure the reliability and stability of corporate-wide services, spanning both on-premises and cloud IaaS environments",
         "*AWS, Docker, Kubernetes, Helm, Nagios, Prometheus, Python, Ansible, Terraform, Jenkins, Nexus, Shell, Git, Agile*"
       ]
     },
@@ -66,12 +68,12 @@
       "endDate": "2019-02-15",
       "summary": "Automation and building Tools.",
       "highlights": [
-        "Automated deployment and installation of packages via Chef",
-        "Automated report generation for AWS, Microsoft Azure",
-        "Generic CI CD template for Python, Java, Node package build and deployment for GitLab and Azure DevOps",
-        "Developed numerous Dockerfile for applications",
-        "Managed a team of 6 for Docker apps creation",
-        "Create a tool to convert Mainframe COBOL code to Gnu COBOL using extensive use of RegEx",
+        "Implemented automated deployment and package installation using Chef, streamlining the provisioning process for efficient and consistent deployments",
+        "Automated report generation for AWS and Microsoft Azure, enabling effortless generation of insightful reports for cloud-based environments",
+        "Developed a versatile CI/CD template for Python, Java, and Node packages, facilitating seamless build and deployment processes on platforms such as GitLab and Azure DevOps",
+        "Created multiple Dockerfiles for applications, ensuring efficient containerization and streamlined deployment workflows",
+        "Led and managed a team of 6 experts in the creation and maintenance of Docker applications, fostering collaboration and delivering high-quality containerized solutions",
+        "Designed and developed a specialized tool leveraging extensive regular expression (RegEx) usage to convert Mainframe COBOL code to Gnu COBOL, streamlining the modernization process and enhancing code compatibility",
         "*Docker, Python, Make, Jira, Confluence, GitLab, Jenkins, Chef, Agile, Shell*"
       ]
     },
@@ -84,9 +86,9 @@
       "endDate": "2015-07-15",
       "summary": "CMC Limited is an award-winning provider of risk and performance management software for financial institutions.",
       "highlights": [
-        "Developed several low level module for a global trading engine using C++",
-        "Designed and authored several **Automated scripts** using Python for BOD/EOD activities",
-        "Integrated automated tests to a Jenkins CI environment",
+        "Engineered multiple low-level modules for a global trading engine using C++, contributing to the performance and functionality enhancements of the system",
+        "Created and implemented Python-based automated scripts for critical business operations (BOD/EOD activities), enabling efficient and error-free execution of essential tasks",
+        "Seamlessly integrated automated tests into a Jenkins CI environment, ensuring robust and reliable testing processes for software development and delivery",
         "*C++, Python, XML, Jenkins, SQL, PL/SQL, Redmine, Agile, Linux, BASH*"
       ]
     }
@@ -144,7 +146,7 @@
         "Nagios",
         "Prometheus",
         "Grafana",
-        "Zabbix"
+        "Loki"
       ]
     },
     {
