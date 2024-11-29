@@ -5,11 +5,11 @@ name: Build resume
 jobs:
 
   build-resume:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     name: Build resume artifacts
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Build resume
         uses: ./ # Uses an action in the root directory
@@ -28,7 +28,7 @@ jobs:
   release-resume:
     if: ${{ contains(github.ref, 'refs/tags/') }}
     needs: build-resume
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     name: Release and publish resume
     steps:
       - name: Download artifacts
@@ -52,7 +52,8 @@ jobs:
 
       - name: Get artifact name
         id: get_artifact_name
-        run: echo "::set-output name=artifact_name::rizwan-kh-resume-${GITHUB_REF/refs\/tags\//}"
+        #run: echo "::set-output name=artifact_name::rizwan-kh-resume-${GITHUB_REF/refs\/tags\//}"
+        run: echo "artifact_name=rizwan-kh-resume-${GITHUB_REF/refs\/tags\//}" >> $GITHUB_OUTPUT
 
       - name: Upload release HTML
         uses: actions/upload-release-asset@v1
