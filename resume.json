@@ -1,10 +1,10 @@
 { "google_analytics_id": "UA-198799391-1",
   "basics": {
     "name": "Rizwan Khan",
-    "label": "Senior DevOps Consultant",
+    "label": "AI LLM Technology Architect Manager",
     "email": "khan.rizwan1@outlook.com",
     "website": "https://rizwan-kh.github.io/",
-    "summary": "An experienced Senior DevOps Architect, I have always been driven by automation and its potential for streamlining operations. With a strong focus on reliability and delivering successful outcomes, I bring a versatile skill set to any team. My commitment to staying updated and continuously learning in a fast-paced environment is a key aspect of my professional approach.\n\nBased in Toronto, Canada.\n\n_This resume is built and deployed with a [GitHub Actions CI/CD workflow](https://github.com/rizwan-kh/resume)._",
+    "summary": "An experienced DevOps Architect, I have always been driven by automation and its potential for streamlining operations. With a strong focus on reliability and delivering successful outcomes, I bring a versatile skill set to any team. My commitment to staying updated and continuously learning in a fast-paced environment is a key aspect of my professional approach.\n\nBased in Toronto, Canada.\n\n_This resume is built and deployed with a [GitHub Actions CI/CD workflow](https://github.com/rizwan-kh/resume)._",
     "location": {
       "city": "Toronto",
       "countryCode": "Canada"
