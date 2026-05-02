@@ -1,19 +1,23 @@
-on: [push]
-
 name: Build resume
 
-jobs:
+on:
+  push:
+    tags:
+      - 'v*'   # Only trigger release job on version tags
+    branches:
+      - main   # Still build on main pushes
 
+jobs:
   build-resume:
     runs-on: ubuntu-22.04
     name: Build resume artifacts
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Build resume
-        uses: ./ # Uses an action in the root directory
-        id: build_resume
+        uses: ./
         with:
           theme-package-url: 'https://github.com/rizwan-kh/jsonresume-theme-helloquan/releases/download/v4.5.4/jsonresume-theme-hellokhan-4.5.2.tgz'
 
@@ -26,54 +30,34 @@ jobs:
             resume.pdf
 
   release-resume:
-    if: ${{ contains(github.ref, 'refs/tags/') }}
+    if: startsWith(github.ref, 'refs/tags/')
     needs: build-resume
     runs-on: ubuntu-22.04
     name: Release and publish resume
+
     steps:
       - name: Download artifacts
         uses: actions/download-artifact@v4
         with:
           name: resume-artifacts
 
-      - name: Create release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate artifact name
+        id: vars
+        run: echo "artifact_name=rizwan-kh-resume-${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+
+      - name: Create or update GitHub Release
+        uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
+          name: Release ${{ github.ref_name }}
+          tag_name: ${{ github.ref_name }}
           body: |
             Changes in this Release
-            - Trial   
-          draft: false
-          prerelease: false
-
-      - name: Get artifact name
-        id: get_artifact_name
-        #run: echo "::set-output name=artifact_name::rizwan-kh-resume-${GITHUB_REF/refs\/tags\//}"
-        run: echo "artifact_name=rizwan-kh-resume-${GITHUB_REF/refs\/tags\//}" >> $GITHUB_OUTPUT
-
-      - name: Upload release HTML
-        uses: actions/upload-release-asset@v1
+            - Trial
+          files: |
+            resume.html
+            resume.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./resume.html
-          asset_name: ${{ steps.get_artifact_name.outputs.artifact_name }}.html
-          asset_content_type: text/html
-
-      - name: Upload release PDF
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./resume.pdf
-          asset_name: ${{ steps.get_artifact_name.outputs.artifact_name }}.pdf
-          asset_content_type: application/pdf
 
       - name: Prepare public directory
         run: |
