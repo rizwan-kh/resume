@@ -133,6 +133,17 @@
   ],
   "skills": [
     {
+      "name": "AI LLM",
+      "keywords": [
+        "NVIDIA NIM",
+        "HuffingFace Models",
+        "vLLM",
+        "Anthropic Claude",
+        "Google Vertex",
+        "Co-Pilot"
+      ]
+    },
+    {
       "name": "Cloud Native",
       "keywords": [
         "Amazon Web Services",
@@ -193,6 +204,12 @@
     }
   ],
   "certificates": [
+    {
+      "name": "Claude Certified Architect - Foundation",
+      "date": "2026-04-15",
+      "issuer": "Anthropic",
+      "url": "https://verify.skilljar.com/c/35vz792zpwad"
+    },
     {
       "name": "Microsoft Certified: Azure Solutions Architect Expert",
       "date": "2022-03-30",
@@ -262,7 +279,7 @@
     },
     {
       "name": "Traveling",
-      "summary": "My favorite way to experience new cultures. Making and planning annual trips to different countries is a challenge I like to embrace. Some places I have traveled to: the UAE, Bhutan, Oman, Saudi Arabia, Canada.",
+      "summary": "My favorite way to experience new cultures. Making and planning annual trips to different countries is a challenge I like to embrace. Some places I have traveled to: the UAE, Bhutan, Oman, Saudi Arabia, Canada, Bahama, Georgia, Maldives.",
       "keywords": [
         "Curiosity",
         "Organization",
